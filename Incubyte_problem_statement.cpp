@@ -6,10 +6,6 @@ class StringCalculator
         int add(string numbers)
         {
             int sum=0;
-            if(numbers.length()>3){
-                cout<<"Please enter 2 digits only"<<endl;
-                return 0;
-            }
             if(numbers.length()==0){
                 return 0;
             }
