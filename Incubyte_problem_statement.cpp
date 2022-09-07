@@ -10,12 +10,9 @@ class StringCalculator
                 return 0;
             }
             for(int i=0;i<numbers.length();i++){
-                if(numbers[i]==','){
-                    
+                if(numbers[i]==',')
+				{
                     continue;
-                }
-                else if(numbers[i]>='a' && numbers[i]<='z'){
-                    sum+=numbers[i]-'a'+1;
                 }
                 else{
                     int a=numbers[i]-'0';
